@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+</head>
+
+<body>
+  <!--
+    tr:table row
+    td:table data cell
+    th:table header cell
+    col:column
+  -->
+  <!--
+    1.tbody 根据w3c标准尽量自己添加
+  -->
+  <table>
+    <caption>标题</caption>
+    <tr>
+      <td>张三</td>
+      <td>李四</td>
+      <td>王五</td>
+    </tr>
+  </table>
+  <table border="1" cellspacing="0" cellpadding="10" witdh="500" height="500">
+    <col bgcolor="red">
+    <col bgcolor="blue">
+    <col bgcolor="pink">
+    <thead>
+      <tr>
+        <th>部门</td>
+        <th>级别</td>
+        <th>姓名</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">commerce</td>
+        <td colspan="2" align="right" valign="top">Specialist</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Senior</td>
+        <td>王五</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
