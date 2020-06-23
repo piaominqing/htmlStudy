@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <!--form:表单-->
+    <form action="https:www.huawei.com" method="GET">
+      <div>你最喜欢的华为手机型号是?</div>
+      <div>
+        <input type="text" value="" />
+      </div>
+      <div>
+        <input type="submit" />
+        <input type="reset" />
+      </div>
+    </form>
+    <form action="https:www.huawei.com" method="GET">
+      <div>购买手机</div>
+      <div>用户名:<input type="text" name="user" /></div>
+      <div>密码:<input type="password" name="password" /></div>
+      <div>
+        手机:<input type="radio" name="photo" id="p" value="P40" /><label
+          for="p"
+          >P40手机</label
+        ><input type="radio" name="photo" id="m" value="M40" /><label for="m"
+          >META40手机</label
+        >
+      </div>
+      <div>
+        配件:
+        <input type="checkbox" name="part" value="1" />无线耳机
+        <input type="checkbox" name="part" value="2" />充电宝
+      </div>
+      <div>
+        <input type="submit" value="提交" />
+      </div>
+    </form>
+    <div>
+      <div>请选择手机型号</div>
+      <div>
+        <!--multiple:按住shift 多选 size:显示的个数-->
+        <select name="phone" id="s1" size="2" multiple>
+          <option value="001">P40手机</option>
+          <option value="002">P30手机</option>
+          <option value="003">P20手机</option>
+          <option value="004">P10手机</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <div>请选择手机型号</div>
+      <div>
+        <!--textarea-->
+        <textarea name="text" id="t1" cols="30" rows="10"> </textarea>
+      </div>
+    </div>
+  </body>
+</html>
